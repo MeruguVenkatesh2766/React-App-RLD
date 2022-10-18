@@ -15,9 +15,6 @@ function Registration() {
 
   const submitHandler = e=>{
     e.preventDefault()
-    if(password!==cpassword){
-      alert("Paswword not matched")
-    }
     localStorage.setItem('fname',fname)
     localStorage.setItem('lname',lname)
     localStorage.setItem('email',email)
