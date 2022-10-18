@@ -12,7 +12,6 @@ function Login() {
     const uemail=localStorage.getItem('email')
     const upwd=localStorage.getItem('password')
     if(uemail===email && upwd===password){
-      console.log(uemail)
       navigate('/dashboard')
     }
   }
