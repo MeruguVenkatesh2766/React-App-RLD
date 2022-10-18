@@ -1,7 +1,8 @@
 import React from "react";
 
 const Dashboard=()=>{
-    const name=localStorage.getItem('name')
+    const fname=localStorage.getItem('fname')
+    const lname=localStorage.getItem('lname')
     const email=localStorage.getItem('email')
     return(
         <div className="Dashboard">
