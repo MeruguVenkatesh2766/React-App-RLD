@@ -22,7 +22,7 @@ function Registration() {
     localStorage.setItem('lname',lname)
     localStorage.setItem('email',email)
     localStorage.setItem('password',password)
-    localStorage.setItem('password',cpassword)
+    localStorage.setItem('cpassword',cpassword)
 
   }
   
